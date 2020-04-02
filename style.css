@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 50vw;
+    border: 2px solid black;
+}
+
+div {
+    flex-basis: 20%;
+    height: 20%;
+    transition: .2s;
+}
+
+div:nth-child(even) {
+    background-color: black;
+    cursor: pointer;
+
+}
+
+div:nth-child(even):hover {
+    background-color: pink;
+}
+
+.fa-chess-queen {
+    margin: 25px;
+    font-size: 70px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.fa-chess-queen:hover {
+    color: #feb236;
+}
+
+h1 {
+    margin: 20px 20px;
+    font-family: 'Cuprum';
+}
+
+.fa-chess-knight {
+    font-size: 70px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.fa-chess-knight:hover {
+    color: #feb236;
+}
